@@ -6,7 +6,7 @@ namespace AbstractFactoryMethod
     {
         static void Main(string[] args)
         {
-            ProductManager productManager = new ProductManager(new Factory1());
+            ProductManager productManager = new ProductManager(new Factory2());
             productManager.GetAll();
         }
     }
